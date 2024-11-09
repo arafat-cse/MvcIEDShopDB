@@ -1,0 +1,50 @@
+﻿@model ShopDB.Models.Vm.Vmodel
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+@using (Html.BeginForm("Edit", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+        <h2>Edit Users</h2>
+        @Html.HiddenFor(u => u.UserId)
+        <div>
+            @Html.Label("UserName")
+            @Html.TextBoxFor(m => m.UserName)
+        </div>
+        <div>
+            @Html.Label("Image")
+            @Html.TextBoxFor(m => m.ImageFile, null, new { Type = "file" })
+            <img src="@Model.ImagePath" width="40" />
+        </div>
+        <div>
+            @Html.Label("Age")
+            @Html.TextBoxFor(m => m.Age, null, new { type = "number" })
+        </div>
+        <div>
+            @Html.Label("Date")
+            @Html.TextBox( "UserDate",Model.UserDate?.ToString("yyyy-MM-dd"), null, new { Type = "date" })
+        </div>
+        <div>
+            @Html.Label("IsAdult")
+            @Html.EditorFor(m => m.IsAudil)
+        </div>
+        <div>
+            <div>
+                @Html.ActionLink("add More", "#", null, new { id = "addmore" })
+            </div>
+            <div id="container">               
+                    @Html.Action("addproduct", "User")
+                
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="Update Data" />
+        </div>
+    </div>
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

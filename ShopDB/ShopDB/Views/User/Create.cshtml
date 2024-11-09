@@ -1,0 +1,47 @@
+﻿@model ShopDB.Models.Vm.Vmodel
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+<div>
+    @using (Html.BeginForm("Create", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div>
+            @Html.Label("UserName")
+            @Html.TextBoxFor(m => m.UserName)
+        </div>
+        <div>
+            @Html.Label("Image")
+            @Html.TextBoxFor(m => m.ImageFile, null, new { Type = "file" })
+        </div>
+        <div>
+            @Html.Label("Age")
+            @Html.TextBoxFor(m => m.Age, null, new { type = "number" })
+        </div>
+        <div>
+            @Html.Label("Date")
+            @Html.TextBoxFor(m => m.UserDate, null, new { Type = "date" })
+        </div>
+        <div>
+            @Html.Label("IsAdult")
+            @Html.EditorFor(m => m.IsAudil)
+        </div>
+        <div>
+            <div>
+                @Html.ActionLink("add More", "#", null, new { id = "addmore" })
+            </div>
+            <div id="container">
+                @Html.Action("addproduct", "User")
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="Create" />
+        </div>
+    }
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</div>
+

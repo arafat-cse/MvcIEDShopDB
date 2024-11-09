@@ -1,0 +1,10 @@
+﻿@model ShopDB.Models.Product
+<div id="remove-product">
+    <div>
+        @Html.DropDownListFor(p=>p.ProductId,ViewBag.product as SelectList,"--selete product")
+    </div>
+    <div>
+        @Html.ActionLink("remove", "",null, new {id="removebtn"})
+    </div>
+
+</div>

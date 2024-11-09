@@ -1,0 +1,99 @@
+﻿@model IEnumerable<ShopDB.Models.User>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    @Html.ActionLink("Create","Create")
+</div>
+<table>
+
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(u => u.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(u => u.ImagePath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(u => u.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(u => u.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(u => u.UserDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(u => u.IsAudil)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(u => user.UserId)
+                </td>
+                <td>
+                    <img src="@user.ImagePath" width="40" />
+                </td>
+                <td>
+                    @Html.DisplayFor(u => user.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(u => user.Age)
+                </td>
+                <td>
+                    @Html.DisplayFor(u => user.UserDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(u => user.IsAudil)
+                </td>
+                <td>  
+                    @Html.ActionLink("Edit", "Edit", new { id = user.UserId })
+
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { id = user.UserId })
+                </td>
+            </tr>
+            <tr>
+                <td class="5">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.Label("ProductId")
+                                </th>
+                                <th>
+                                    @Html.Label("ProductName")
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var p in user.Details)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(u => p.ProductId)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(u => p.ProductName)
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

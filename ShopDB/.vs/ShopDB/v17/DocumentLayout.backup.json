@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\shopdb\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|solutionrelative:shopdb\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|c:\\users\\arafat rahaman\\desktop\\code test\\shopdb\\shopdb\\shopdb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|solutionrelative:shopdb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\shopdb\\models\\vm\\vmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|solutionrelative:shopdb\\models\\vm\\vmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\shopdb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|solutionrelative:shopdb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\shopdb\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|solutionrelative:shopdb\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\shopdb\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|solutionrelative:shopdb\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\shopdb\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{59C404A0-F9DA-41F8-8AB4-EB22F6638D93}|ShopDB\\ShopDB.csproj|solutionrelative:shopdb\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ShopDB\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "ShopDB\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T04:12:24.671Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShopDB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShopDB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T07:02:37.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "ShopDB\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "ShopDB\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T18:51:17.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopDB\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "ShopDB\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwD0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T18:36:17.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ShopDB\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ShopDB\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAFAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:42:25.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vmodel.cs",
+              "DocumentMoniker": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Models\\Vm\\Vmodel.cs",
+              "RelativeDocumentMoniker": "ShopDB\\Models\\Vm\\Vmodel.cs",
+              "ToolTip": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Models\\Vm\\Vmodel.cs",
+              "RelativeToolTip": "ShopDB\\Models\\Vm\\Vmodel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:47:31.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "ShopDB\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Arafat Rahaman\\Desktop\\Code Test\\ShopDB\\ShopDB\\ShopDB\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "ShopDB\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-08T16:41:19.49Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
